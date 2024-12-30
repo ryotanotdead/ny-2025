@@ -1,6 +1,6 @@
 import { createVuetify } from 'vuetify';
-import 'vuetify/styles';
-import '/node_modules/@mdi/font/css/materialdesignicons.css';
+import '@mdi/font/css/materialdesignicons.css'
+import 'vuetify/styles'
 
 const vuetify = createVuetify();
 
