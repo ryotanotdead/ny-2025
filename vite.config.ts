@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import {VitePWA} from 'vite-plugin-pwa'
+import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/ny-2025/',
+  base: '/ny-2025/',  // Путь для GitHub Pages
   resolve: {
     alias: {
       '@mdi/font/css/materialdesignicons.css': '/node_modules/@mdi/font/css/materialdesignicons.css',
