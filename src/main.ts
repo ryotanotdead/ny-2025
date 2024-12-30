@@ -1,5 +1,8 @@
+import './style.css';
+import '../node_modules/@mdi/font/css/materialdesignicons.css';
+import 'vuetify/styles';
 import * as components from 'vuetify/components';
-import * as directives from 'vuetify/directives';
+import * as directives from 'vuetify/directives'
 import { createVuetify } from 'vuetify';
 import { createApp } from 'vue';
 import App from './App.vue';
