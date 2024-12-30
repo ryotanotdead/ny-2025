@@ -4,6 +4,7 @@ import {VitePWA} from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/ny-2025/',  
   plugins: [
     vue(),
     VitePWA({
